@@ -1,0 +1,3 @@
+1-24 rest
+25-70 walk
+72-95 door opening
