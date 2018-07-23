@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     public float speed;
+    public float turnSpeed = 50f;
 
     private Rigidbody rb;
 
@@ -19,12 +20,20 @@ public class PlayerController : MonoBehaviour {
     }
     void ControllPlayer(){
         float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical")
+        float moveVertical = Input.GetAxis("Vertical");
+
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        rb.AddForce(movement * speed);
-        transform.rotation = Quaternion.LookRotation(movement);
-        transform.Translate(movement * movementSpeed * Time.deltaTime, Space.World);
+        transform.Translate(movement * speed * Time.deltaTime, Space.World);
+
+        //if (Input.GetKey(KeyCode.LeftArrow))
+        //    transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
+
+        //if (Input.GetKey(KeyCode.RightArrow))
+            //transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
+        
     }
+
+    
     //this is my command
 
 }
