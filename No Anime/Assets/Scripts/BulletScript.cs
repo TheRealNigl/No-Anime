@@ -8,7 +8,6 @@ public class BulletScript : MonoBehaviour {
 	void Start () {
 		
 	}
-	
 	// Update is called once per frame
 	void Update () {
 		
@@ -18,6 +17,7 @@ public class BulletScript : MonoBehaviour {
 	{
         if (other.gameObject.tag == "Enemy"){
             Destroy(other.gameObject, 1f);
+
         }
             
 	}
