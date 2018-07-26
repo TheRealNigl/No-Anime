@@ -1,29 +1,33 @@
 fileFormatVersion: 2
-guid: 664ab2c2255afae4e947acd274ec3224
-timeCreated: 1532530456
+guid: 448cccfa189ae6a46a23eab3fd3bf7c9
+timeCreated: 1532619804
 licenseType: Pro
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Door_0
-    100004: Door_1
-    100006: Door_2
+    100002: Door:Door_0
+    100004: Door:Door_1
+    100006: Door:Door_2
+    100008: Door:Door_3
+    100010: Door:transform1
+    100012: Door:transform2
+    100014: Door:transform3
     400000: //RootNode
-    400002: Door_0
-    400004: Door_1
-    400006: Door_2
-    2100000: Drawer_LS
-    2100002: Picture_Frame_LS
-    2300000: Door_0
-    2300002: Door_1
-    2300004: Door_2
-    3300000: Door_0
-    3300002: Door_1
-    3300004: Door_2
-    4300000: Door_0
-    4300002: Door_1
-    4300004: Door_2
+    400002: Door:Door_0
+    400004: Door:Door_1
+    400006: Door:Door_2
+    400008: Door:Door_3
+    400010: Door:transform1
+    400012: Door:transform2
+    400014: Door:transform3
+    2100000: Door_Picture_Frame_LS1
+    2100002: Door_Drawer_LS1
+    2300000: Door:Door_3
+    3300000: Door:Door_3
+    4300000: Door:Door_3
+    7400000: Take 001
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -98,7 +102,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
