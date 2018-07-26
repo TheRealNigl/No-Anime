@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/NPCLogoLevel.unity
+    guid: 60341ffdfda8f654ca5b3f5da1690616
+  - enabled: 1
+    path: Assets/Scenes/BlackoutLogo.unity
+    guid: 56d917cb8d7771946a1ee946d31d66fe
+  - enabled: 1
+    path: Assets/Scenes/BlackOut.unity
+    guid: 719f8b92ba4b99d469e31ddd17ffed7a
